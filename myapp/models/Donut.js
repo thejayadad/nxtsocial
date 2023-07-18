@@ -18,6 +18,6 @@ likes: {
   creator: { type: String },
 });
 
-const Prompt = models.Prompt || model("Prompt", PromptSchema);
+const Donut = models.Donut || model("Donut", DonutSchema);
 
-export default Prompt;
+export default Donut;
